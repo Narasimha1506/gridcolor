@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            border:2px solid black;
+            height: 700px;
+            width:700px;
+            padding:20px;
+            display: grid;
+            grid-template-columns:auto auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            gap:10px;
+            background-color: black;
+        }
+        .cd{
+            border:1px solid black;
+        }
+        .cd1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            padding:50px;
+            text-align: center;
+            background-color:rgb(79, 187, 231);
+            font-size: 30px;
+        }
+        .cd2{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            text-align: center;
+            padding:50px;
+            background-color:lawngreen ;
+            font-size: 30px;
+        }
+        .cd3{
+            grid-row-start: 3;
+            grid-row-end: 5;
+            text-align: center;
+            padding:50px;
+            background-color: green;
+            font-size: 30px;
+        }
+        .cd4{
+            grid-column-start:2;
+            grid-column-end: 5;
+            text-align: center;
+            padding: 50px;
+            background-color: rgb(77, 194, 239);
+            font-size: 30px;
+        }
+        .cd5{
+            grid-column-start: 2;
+            grid-column-end: 5;
+            text-align: center;
+            padding: 50px;
+            background-color: blue;
+            font-size: 30px;
+        }
+        .cd6{
+            grid-column-start: 1;
+            grid-column-end: 5;
+             text-align: center;
+            padding:50px; 
+            background-color: rgb(39, 181, 237);
+            font-size: 30px;
+        }
+        .anil{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="anil">
+   <div class="md">
+    <div class="cd cd1">Header</div>
+    <div class="cd cd2">Navigation</div>
+    <div class="cd cd3"> Aside</div>
+    <div class="cd cd4">Content</div>
+    <div class="cd cd5">Section</div>
+    <div class="cd cd6">Footer</div>
+   </div> 
+   </div>
+</body>
+</html>
